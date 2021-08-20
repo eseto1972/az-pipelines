@@ -27,7 +27,7 @@ namespace WebApi.Controllers
         public IEnumerable<WeatherForecast> Get()
         {
             var rng = new Random();
-            //tests
+            //tests 2
             return Enumerable.Range(1, 7).Select(index => new WeatherForecast
             {
                 Date = DateTime.Now.AddDays(index),
